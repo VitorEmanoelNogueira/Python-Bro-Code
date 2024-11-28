@@ -9,9 +9,9 @@ class MainWindow(QMainWindow):
         self.setGeometry(683, 384, 500, 500)
 
         label = QLabel(self)
-        label.setGeometry(0, 0, 100, 100)
+        label.setGeometry(0, 0, 300, 300)
 
-        pixmap = QPixmap("./68 - PyQt5 images/nagi_image.jpg")
+        pixmap = QPixmap("./67 - PyQt5 images/pancake-cat.png")
         label.setPixmap(pixmap) #Colocando a imagem no label
 
         label.setScaledContents(True) # A imagem vai se adequar ao tamanho do label
