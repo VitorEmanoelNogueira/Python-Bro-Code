@@ -1,7 +1,7 @@
 import json
 import csv
 
-# file_path = "D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/59 - writing files/output.txt"
+# file_path = "D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/059 - writing files/output.txt"
 
 # try:
 #     with open(file_path, "r") as file:
@@ -12,7 +12,7 @@ import csv
 # except PermissionError:
 #     print("YOu do not have permission to read that file!")
 
-# file_path = "D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/59 - writing files/output.json"
+# file_path = "D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/059 - writing files/output.json"
 
 # try:
 #     with open(file_path, "r") as file:
@@ -23,7 +23,7 @@ import csv
 # except PermissionError:
 #     print("You do not have permission to read that file!")
 
-file_path = "D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/59 - writing files/output.csv"
+file_path = "D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/059 - writing files/output.csv"
 
 try:
     with open(file_path, "r") as file:

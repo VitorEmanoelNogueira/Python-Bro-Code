@@ -26,7 +26,7 @@ class DigitalClock(QWidget):
           "color: hsl(111, 100%, 50%)")
         self.setStyleSheet("background-color: black")
 
-        font_id = QFontDatabase.addApplicationFont("D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/74 - digital clock program/DS-DIGIT.TTF")
+        font_id = QFontDatabase.addApplicationFont("D:/Users/Vitor/Desktop/Cursos/Python - Bro Code/074 - digital clock program/DS-DIGIT.TTF")
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font = QFont(font_family, 150)
         self.time_label.setFont(my_font)
